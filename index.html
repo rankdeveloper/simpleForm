@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="alert">
+        <h2>Form submitted successfully</h2>
+    </div>
+
+
+    <div class="outer">
+        <div class="outer-inner">
+
+            <div class="form">
+                <h2>Registration Form</h2>
+                <form id="registration" autocomplete="off">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="email" placeholder="Email id" required>
+                    <input type="password" placeholder="Password" required>
+
+
+                    <div class="gender">
+
+                        <div class="content">
+                            <label>Gender</label>
+                        </div>
+                        <div class="radio">
+
+                            <label>Male</label>
+                            <input type="radio" name="r1" value="Male" required>
+                            <label>Female</label>
+                            <input type="radio" name="r1" value="Female" required>
+                        </div>
+                    </div>
+
+                    <div class="select">
+                        <select>
+                            <option value="">Choose your City</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Banglore">Banglore</option>
+                        </select>
+                    </div>
+
+                    <div class="dob">
+                        <label>Date of Birth</label>
+                        <input type="date" required><br>
+                    </div>
+
+                    <div class="file">
+                        <label>Upload your DMC</label>
+                        <input type="file" required>
+                    </div>
+
+
+                    <div class="checkbox">
+                        <span>Your hobbies</span>
+                        <div class="checkbox-inner">
+
+
+                       
+
+
+                            <div class="content">
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label>Rapping</label>
+                                </div>
+
+
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label>Cricket Playing</label>
+                                </div>
+
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label>Bike riding</label>
+                                </div>
+
+
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label>Other</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="textarea">
+                        <textarea placeholder="Your Comments"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" id="submit">
+                        <input type="reset" id="reset">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
+
+<!-- coded by Rankush :)  -->
